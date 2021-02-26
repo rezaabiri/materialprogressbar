@@ -20,7 +20,7 @@ allprojects {
 
 ```
 dependencies {
-      implementation 'com.github.rezaabiri:materialprogressbar:1.0'
+      implementation 'com.github.rezaabiri:materialprogressbar:1.1'
 }
 ```
 
