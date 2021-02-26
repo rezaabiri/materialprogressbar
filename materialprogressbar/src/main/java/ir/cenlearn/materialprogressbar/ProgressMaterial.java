@@ -10,15 +10,15 @@ public class ProgressMaterial {
 
     AlertDialog dialogBuilder;
 
-    public void show(Context context){
+    public void show(Context context, Boolean cancelable){
 
         dialogBuilder = new AlertDialog.Builder(context).create();
         LayoutInflater inflater = LayoutInflater.from(context);
         View dialogView = inflater.inflate(R.layout.layout_progressbar_material, null);
         dialogBuilder.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         dialogBuilder.setView(dialogView);
+        dialogBuilder.setCancelable(cancelable);
         dialogBuilder.show();
-        dialogBuilder.setCancelable(false);
     }
     public void dismiss(){
         dialogBuilder.dismiss();
