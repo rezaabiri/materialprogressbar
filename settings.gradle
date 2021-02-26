@@ -1,0 +1,3 @@
+include ':materialprogressbar'
+include ':app'
+rootProject.name = "ProgressBarCustom"
