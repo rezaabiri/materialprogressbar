@@ -3,7 +3,9 @@ With this library you can make a beautiful progress bar with just a few simple l
 This library is expanding
 Version: 1.0
 
-<b5>Usage</b5>
+<h1>Usage</h1>
+
+
 To use this library, do the following:
 for display :
 
