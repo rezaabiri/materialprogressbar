@@ -29,7 +29,7 @@ for display :
 
 ```
 ProgressMaterial progress = new ProgressMaterial();
-progress.show(context);
+progress.show(context, true/false);
 ```
 for dismiss:
 
