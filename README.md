@@ -36,4 +36,3 @@ for dismiss:
 ```
 progress.dismiss();
 ```
-END
